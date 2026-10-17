@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b13">
+<meta name="description" content="The official Max'N'Ash creator hub for gaming, music and animations.">
+<title>Max'N'Ash | Official Creator Hub</title>
+<style>
+:root{--bg:#080b13;--panel:#121827;--red:#ff304f;--blue:#10c8ff;--text:#f6f8ff;--muted:#b6c4d8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 12% 0%,#241126 0,transparent 30rem),radial-gradient(circle at 100% 10%,#08243a 0,transparent 28rem),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#080b13eF;border-bottom:1px solid #263247;backdrop-filter:blur(14px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:76px}.brand{font-weight:950;letter-spacing:.04em;font-size:1.25rem}.brand span:first-child{color:var(--red)}.brand span:last-child{color:var(--blue)}
+nav{display:flex;gap:1.25rem;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}nav a:hover{color:white}
+.corner-logo{position:absolute;right:4%;top:92px;width:clamp(90px,14vw,165px);filter:drop-shadow(0 0 20px #10c8ff35);z-index:2}
+.hero{padding:5.5rem 0 3rem;min-height:460px;display:flex;align-items:center}.hero-copy{max-width:650px;position:relative;z-index:1}.eyebrow{color:var(--blue);font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2.7rem,7vw,5.5rem);line-height:.98;letter-spacing:-.055em;margin:.7rem 0 1rem}h1 .red{color:var(--red)}h1 .blue{color:var(--blue)}
+p{line-height:1.7;color:var(--muted)}.actions{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.6rem}.btn{padding:.9rem 1.2rem;border-radius:14px;font-weight:850;display:inline-flex;align-items:center;justify-content:center;border:1px solid #334157;transition:transform .2s,filter .2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}.primary{background:var(--red);border-color:var(--red);color:white}.secondary{background:var(--panel);border-color:var(--blue)}
+.feature-logo{width:min(780px,100%);margin:1.5rem auto 0;padding:1rem;background:#101726;border:1px solid #29384d;border-radius:26px;box-shadow:0 24px 70px #0005;text-align:center}.feature-logo img{display:block;width:100%;max-height:350px;object-fit:contain}.feature-logo strong{display:block;letter-spacing:.16em;font-size:.78rem;color:#dce6f5;padding:.4rem}
+section{padding:3.2rem 0}.section-title{font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 .4rem}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.6rem}.card{padding:1.4rem;border-radius:22px;background:linear-gradient(145deg,#141c2d,#0e1420);border:1px solid #28364a;min-height:165px}.card:nth-child(1){border-top:3px solid var(--red)}.card:nth-child(2){border-top:3px solid var(--blue)}.card:nth-child(3){border-top:3px solid #a78bfa}.card h3{margin:.2rem 0 .5rem}.card p{font-size:.95rem;margin:.3rem 0 1rem}.tag{font-size:.8rem;color:var(--muted)}
+.community{padding:2rem;border-radius:26px;background:#101726;border:1px solid #28364a}.contact-form{display:grid;gap:.8rem;margin-top:1rem;max-width:650px}.contact-form input,.contact-form textarea{width:100%;padding:1rem;border:1px solid #34445b;background:#080b13;color:white;border-radius:12px;font:inherit}.contact-form textarea{min-height:120px;resize:vertical}.hint{font-size:.85rem}
+footer{border-top:1px solid #263247;padding:1.8rem 0;color:#8595ab;font-size:.85rem}.footer-row{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+@media(max-width:700px){.nav{align-items:flex-start;flex-direction:column;padding:1rem 0}.nav nav{gap:.8rem}.hero{padding-top:3.5rem;min-height:auto}.corner-logo{top:135px;right:4%;width:90px;opacity:.85}.hero-copy{padding-top:2rem;max-width:80%}.cards{grid-template-columns:1fr}.feature-logo{margin-top:1rem}.feature-logo img{max-height:240px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home" aria-label="Max and Ash home"><span>MAX</span><span>'N'</span><span>ASH</span></a>
+<nav aria-label="Main navigation"><a href="#home">Home</a><a href="#videos">Videos</a><a href="#music">Music</a><a href="#about">About</a><a href="#contact">Talk to us</a></nav>
+</div></header>
+
+<!-- Small logo in the upper-right corner -->
+<img class="corner-logo" src="logo.png" alt="Max'N'Ash chibi character logo">
+
+<main>
+<section class="hero wrap" id="home"><div class="hero-copy">
+<div class="eyebrow">Official creator hub</div>
+<h1>TWO CREATORS.<br><span class="red">ONE</span> <span class="blue">WORLD.</span></h1>
+<p>Gaming, original music and animations from Max'N'Ash. Welcome to our corner of the internet.</p>
+<div class="actions"><a class="btn primary" href="#videos">Watch videos ↗</a><a class="btn secondary" href="#music">Listen to music ♪</a></div>
+</div></section>
+
+<!-- Main logo, centred near the top of the page -->
+<div class="wrap"><div class="feature-logo"><img src="logo.png" alt="Max'N'Ash logo featuring the red Max character and blue Ash character"><strong>MAX'N'ASH · GAMING · MUSIC · ANIMATION</strong></div></div>
+
+<section class="wrap" id="videos"><h2 class="section-title">Explore Max'N'Ash</h2><p>Pick your next adventure.</p>
+<div class="cards">
+<article class="card"><h3>🎮 Videos</h3><p>Minicraft adventures, challenges, Shorts and animations.</p><a class="btn primary" href="https://www.youtube.com/@TnTGamers-sd" target="_blank" rel="noopener">Visit our channel ↗</a></article>
+<article class="card" id="music"><h3>🎵 Music</h3><p>Original songs and lyrics from Max and Ash.</p><span class="tag">Add your song links or audio files here.</span></article>
+<article class="card" id="about"><h3>🔴🔵 About us</h3><p>Max brings the red energy. Ash brings the blue vibes. Together, we're Max'N'Ash.</p><span class="tag">Gaming • Music • Animation</span></article>
+</div></section>
+
+<section class="wrap" id="contact"><div class="community">
+<h2 class="section-title">Join the community</h2><p>Have a question, an idea for a video, or a song suggestion? Send us a message.</p>
+<form class="contact-form" id="contactForm">
+<input id="senderName" name="name" placeholder="Your name" required maxlength="80">
+<input id="senderEmail" name="email" type="email" placeholder="Your email (optional)">
+<textarea id="senderMessage" name="message" placeholder="Write your message..." required maxlength="3000"></textarea>
+<button class="btn secondary" type="submit">Prepare message ↗</button>
+</form>
+<p class="hint" id="formStatus" role="status">This starter form opens your email app with the message prepared. It does not send automatically.</p>
+</div></section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> Max'N'Ash</span><span>Made for the red team × blue team.</span></div></footer>
+<script src="script.js"></script>
+</body></html>
